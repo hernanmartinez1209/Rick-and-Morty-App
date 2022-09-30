@@ -45,7 +45,7 @@ function App() {
         <button>Search</button>
       </form>
       <LocationInfo location={location} />
-      <div>
+      <div className='cart__principal'>
         {
           location?.residents.map(url => (
             <CardResident

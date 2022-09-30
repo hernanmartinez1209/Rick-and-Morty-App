@@ -1,0 +1,34 @@
+
+.App{
+    width: 100vw;
+    height: 100%;
+    background-color: #293462;
+}
+.cart__principal{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.cart__hijo{
+    border: solid 1px #38E54D;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 15px black;
+}
+.cart__hijo:hover{
+    background-image: url(https://i0.wp.com/cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 15px black;
+}   
+.section__ul{
+    list-style: none;
+}
+.img__cart{
+    width: 150px;
+    
+}
